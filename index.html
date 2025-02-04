@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Olimpíadas</title>
+</head>
+
+<body>
+    <header>
+        <h1>Atletas do Brasil</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa"> <!--class interessa ao HTML e ID ao javascript-->
+            <div class="item-resultado">
+                <h2><a href="https://www.instagram.com/rebecarandrade/?hl=pt-br" target="_blank">Rebeca Andrade</a></h2>
+                <p class="descricao-meta">Rebeca Andrade é uma ginasta artística brasileira que conquistou o coração dos
+                    brasileiros e se tornou um símbolo de superação e determinação no esporte.</p>
+                <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Mais informações</a>
+            </div>
+
+            <div class="item-resultado">
+                <h2><a href="https://www.instagram.com/launskate/" target="_blank">Laun de Oliveira</a></h2>
+                <p class="descricao-meta">Laun de Oliveira é um skatista profissional brasileiro, conhecido por suas manobras inovadoras e estilo único e irreverente, anda muito conhecido pelo mundo todo..</p>
+                <a href="https://pt.wikipedia.org/wiki/Laun_de_Oliveira" target="_blank">Mais informações</a>
+              </div>
+              
+              <div class="item-resultado">
+                <h2><a href="https://www.instagram.com/leandrinhobasquete/" target="_blank">Leandrinho</a></h2>
+                <p class="descricao-meta">Leandrinho Barbosa é um jogador de basquete brasileiro, conhecido por sua agilidade e habilidade para arremessar, enterrar, fazer dribles, ninguém segura o homem em quadra.</p>
+                <a href="https://pt.wikipedia.org/wiki/Leandrinho_Barbosa" target="_blank">Mais informações</a>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
+        <p>Entre em contatp pelo e-mail: renisonramosnegociosonline@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
